@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - Olympus Fitness</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div id="formulario">
+        <h2>Registro de socios</h2>
+        
+        <form name="inicioSesion" action="http://miweb.es/gestionaSesión.php" method="GET">
+            <div>
+                <label for="inputNombre">Nombre:</label>
+                <input type="text" name="inputNombre" id="inputNombre" class="entrada borde-redondo">
+            </div>
+            
+            <div>
+                <label for="inputApellidos">Apellidos:</label>
+                <input type="text" name="inputApellidos" id="inputApellidos" class="entrada borde-redondo">
+            </div>
+            
+            <div>
+                <label for="inputPassword">Contraseña:</label>
+                <input type="password" name="inputPassword" id="inputPassword" class="entrada borde-redondo">
+            </div>
+            
+            <div>
+                <label for="idSelectOpcion">Qué Quieres Mejorar:</label>
+                <select name="selectOpcion" id="idSelectOpcion" class="entrada borde-redondo">
+                    <option value="Volumen">Volumen</option>
+                    <option value="Definicion">Definición</option>
+                    <option value="PerderPeso">Perder Peso</option>
+                    <option value="GanarMusculo">Ganar Músculo</option>
+                </select>
+            </div>
+            
+            <div>
+                <input type="submit" name="submitFormulario" id="boton-aceptar" value="Enviar Registro" class="borde-redondo">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
