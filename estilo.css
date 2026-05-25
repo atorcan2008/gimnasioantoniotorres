@@ -1,0 +1,40 @@
+/* 1. Cambiar el fondo y la fuente de toda la página */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* 2. Dar estilo al título principal */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* 3. Mejorar la tabla */
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* 4. Añadir efecto a los enlaces */
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
